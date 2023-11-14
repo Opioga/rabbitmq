@@ -8,4 +8,4 @@ RUN chown rabbitmq:rabbitmq /etc/rabbitmq/rabbitmq.conf
 
 USER rabbitmq:rabbitmq
 
-EXPOSE 1337
+EXPOSE 5672
